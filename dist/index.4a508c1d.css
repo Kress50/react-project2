@@ -46,4 +46,107 @@ input, button, textarea, select {
   }
 }
 
+body {
+  color: #2b283a;
+  background-color: #e5e5e5;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  display: flex;
+}
+
+.container {
+  width: 500px;
+  background-color: #fff;
+  margin: 128px;
+}
+
+.header {
+  height: 55px;
+  background-color: #f55a5a;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.header img {
+  height: 24px;
+  width: 24px;
+}
+
+.header--title {
+  color: #fff;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  font-size: .9rem;
+}
+
+.card--scroll {
+  padding: 30px 0;
+}
+
+.card {
+  border-bottom: 2px solid #f5f5f5;
+  gap: 19px;
+  margin: 0 30px;
+  padding: 16px 0;
+  display: flex;
+}
+
+.card:last-of-type {
+  border-bottom: none;
+}
+
+.card--image {
+  height: 170px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card--text--body {
+  flex-direction: column;
+  margin: auto 0;
+  display: flex;
+}
+
+.card--locator {
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.card--locator img {
+  object-fit: contain;
+}
+
+.card--location {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .8rem;
+}
+
+.card--google {
+  color: #918e9b;
+  padding-left: 8px;
+  font-size: .7rem;
+  position: relative;
+  top: 1px;
+}
+
+.card--title {
+  font-size: 1.7rem;
+}
+
+.card--dates {
+  padding-top: 8px;
+  font-size: .7rem;
+}
+
+.card--description {
+  padding-top: 8px;
+  font-size: .6rem;
+}
+
 /*# sourceMappingURL=index.4a508c1d.css.map */
