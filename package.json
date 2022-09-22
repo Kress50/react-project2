@@ -1,0 +1,24 @@
+{
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.7.0",
+		"eslint": "^8.23.1",
+		"eslint-plugin-react": "^7.31.8",
+		"parcel": "^2.7.0",
+		"process": "^0.11.10"
+	},
+	"dependencies": {
+		"init": "^0.1.2",
+		"npm": "^8.19.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"name": "react-project2",
+	"version": "1.0.0",
+	"description": "React Scrimbla Project 2",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel ./src/index.html"
+	},
+	"author": "Kress50",
+	"license": "ISC"
+}
